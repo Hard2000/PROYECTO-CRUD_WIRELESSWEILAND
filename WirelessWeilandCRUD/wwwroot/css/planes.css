@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f9f9f9;
+    color: #212529;
+}
+
+/* Intro Section */
+.intro-text {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #0056b3;
+}
+
+.intro-subtext {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+
+/* Plan Container */
+.plan-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual Plans */
+.plan {
+    background: #fff;
+    color: #212529;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: float 3s ease-in-out infinite, float-shadow 3s ease-in-out infinite;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.plan h2 {
+    font-size: 1.8rem;
+    color: #0056b3;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.plan p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #6c757d;
+}
+
+.plan p:last-child {
+    font-weight: bold;
+    color: #0056b3;
+    margin-top: 15px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #0056b3;
+    color: #fff;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #003f7f;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.main-footer {
+    background: #003f7f;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Animación de flotación */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Sombra dinámica */
+@keyframes float-shadow {
+    0%, 100% {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Estilos del Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    animation: popup-animation 0.3s ease-out;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #0056b3;
+}
+
+.popup-content p {
+    font-size: 1rem;
+    color: #212529;
+    margin: 10px 0;
+}
+
+.popup-content button {
+    background: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.popup-content button:hover {
+    background: #003f7f;
+}
+
+/* Animación del Popup */
+@keyframes popup-animation {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro-text {
+        font-size: 1.8rem;
+    }
+    .intro-subtext {
+        font-size: 1rem;
+    }
+    .plan-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,81 @@
+@model Cliente
+
+<h2>Crear Cliente</h2>
+
+<form asp-action="Create" method="post">
+    <!-- Campo: Nombre -->
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" oninput="this.value = this.value.toUpperCase();" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Dirección -->
+    <div class="form-group">
+        <label asp-for="Direccion"></label>
+        <input asp-for="Direccion" class="form-control" oninput="this.value = this.value.toUpperCase();" />
+        <span asp-validation-for="Direccion" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Teléfono -->
+    <div class="form-group">
+        <label asp-for="Telefono"></label>
+        <input asp-for="Telefono" class="form-control" />
+        <span asp-validation-for="Telefono" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Correo Electrónico -->
+    <div class="form-group">
+    <label asp-for="CorreoElectronico"></label>
+    <input asp-for="CorreoElectronico" class="form-control" />
+    <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
+    </div>
+
+
+    <!-- Campo: Plan de Renta -->
+    <div class="form-group">
+        <label asp-for="PlanRenta"></label>
+        <select asp-for="PlanRenta" class="form-control">
+            <option value="">Seleccione un plan</option>
+            @if (ViewBag.PlanesDeRenta != null)
+            {
+                foreach (string plan in (List<string>)ViewBag.PlanesDeRenta)
+                {
+                    <option value="@plan">@plan</option>
+                }
+            }
+            else
+            {
+                <!-- Planes predeterminados en caso de que ViewBag esté vacío -->
+                <option value="Básico">Básico</option>
+                <option value="Estándar">Estándar</option>
+                <option value="Premium">Premium</option>
+            }
+        </select>
+        <span asp-validation-for="PlanRenta" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Estatus (Activo/Inactivo) -->
+    <div class="form-group">
+        <label asp-for="Activo"></label>
+        <input asp-for="Activo" class="form-check-input" type="checkbox" />
+    </div>
+
+    <!-- Campo: Fecha de Inicio -->
+    <div class="form-group">
+        <label asp-for="FechaInicio"></label>
+        <input asp-for="FechaInicio" class="form-control" type="date" />
+        <span asp-validation-for="FechaInicio" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Comentarios -->
+    <div class="form-group">
+        <label asp-for="Comentarios"></label>
+        <textarea asp-for="Comentarios" class="form-control"></textarea>
+        <span asp-validation-for="Comentarios" class="text-danger"></span>
+    </div>
+
+    <!-- Botones -->
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,146 @@
+@model ReciboViewModel
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Generar Recibo</h2>
+
+    <form asp-action="GuardarRecibo" method="post" class="shadow p-4 bg-white rounded">
+        <!-- Campo de búsqueda -->
+        <div class="mb-4 position-relative">
+            <label for="BuscarCliente" class="form-label fw-bold">Buscar Cliente</label>
+            <input type="text" class="form-control" id="BuscarCliente" placeholder="Ingrese el nombre del cliente" oninput="buscarCliente()" />
+            <ul id="ResultadosBusqueda" class="list-group mt-2" style="position: absolute; z-index: 1000; max-height: 150px; overflow-y: auto; width: 100%;"></ul>
+            <input type="hidden" id="ClienteId" name="ClienteId" />
+        </div>
+
+        <!-- Datos del cliente -->
+        <div class="mb-4">
+            <label for="ClienteNombre" class="form-label fw-bold">Nombre del Cliente</label>
+            <input type="text" class="form-control" id="ClienteNombre" name="ClienteNombre" readonly />
+        </div>
+
+        <div class="mb-4">
+            <label for="Direccion" class="form-label fw-bold">Dirección</label>
+            <input type="text" class="form-control" id="Direccion" name="Direccion" readonly />
+        </div>
+
+        <!-- Detalles del recibo -->
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <label for="Subtotal" class="form-label fw-bold">Subtotal</label>
+                <input type="number" class="form-control" id="Subtotal" name="Subtotal" readonly />
+            </div>
+            <div class="col-md-6 mb-4">
+            <label for="Descuento" class="form-label fw-bold">Descuento</label>
+            <input type="number" class="form-control" id="Descuento" name="Descuento" value="0" min="0" 
+            oninput="if (this.value < 0) this.value = 0; calcularTotal();" />
+</div>
+
+        </div>
+
+        <div class="mb-4">
+            <label for="Total" class="form-label fw-bold">Total</label>
+            <input type="number" class="form-control" id="Total" name="Total" readonly />
+        </div>
+
+        <!-- Selección del mes -->
+        <div class="mb-4">
+            <label for="Mes" class="form-label fw-bold">Seleccionar Mes</label>
+            <select class="form-control" id="Mes" name="Mes" required>
+                <option value="">Seleccione un mes</option>
+                @foreach (var mes in Model.Meses)
+                {
+                    <option value="@mes">@mes</option>
+                }
+            </select>
+        </div>
+
+        <!-- Botón -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Guardar Recibo</button>
+        </div>
+    </form>
+</div>
+
+
+<script>
+    // Función para buscar clientes por nombre
+    async function buscarCliente() {
+        const query = document.getElementById("BuscarCliente").value.trim();
+        const resultados = document.getElementById("ResultadosBusqueda");
+
+        resultados.innerHTML = ""; // Limpiar resultados previos
+
+        if (query === "") return;
+
+        try {
+            const response = await fetch(`/Clientes/BuscarClientes?query=${encodeURIComponent(query)}`);
+            if (!response.ok) throw new Error("Error al obtener la lista de clientes");
+
+            const clientes = await response.json();
+
+            if (clientes.length === 0) {
+                resultados.innerHTML = `<li class="list-group-item">No se encontraron resultados</li>`;
+                return;
+            }
+
+            clientes.forEach(cliente => {
+                const li = document.createElement("li");
+                li.classList.add("list-group-item", "list-group-item-action");
+                li.textContent = `${cliente.nombre} (${cliente.direccion || "Sin dirección"})`; // Mostrar dirección opcionalmente
+                li.dataset.id = cliente.id;
+                li.dataset.nombre = cliente.nombre;
+                li.dataset.direccion = cliente.direccion;
+                const montoPlan = cliente.planRenta.match(/\$([0-9.]+)/);
+                li.dataset.plan = montoPlan ? montoPlan[1] : "0";
+
+                li.addEventListener("click", () => {
+                    document.getElementById("ClienteId").value = li.dataset.id; // Guardar el ID
+                    document.getElementById("ClienteNombre").value = li.dataset.nombre;
+                    document.getElementById("Direccion").value = li.dataset.direccion || "No proporcionada"; // Manejar direcciones opcionales
+                    document.getElementById("Subtotal").value = parseFloat(li.dataset.plan).toFixed(2);
+
+                    calcularTotal();
+                    resultados.innerHTML = ""; // Limpiar resultados
+                });
+
+                resultados.appendChild(li);
+            });
+        } catch (error) {
+            console.error("Error al buscar clientes:", error);
+            resultados.innerHTML = `<li class="list-group-item text-danger">Error al buscar clientes</li>`;
+        }
+    }
+
+    function calcularTotal() {
+        const subtotal = parseFloat(document.getElementById("Subtotal").value) || 0;
+        const descuento = parseFloat(document.getElementById("Descuento").value) || 0;
+        const total = subtotal - descuento;
+
+        document.getElementById("Total").value = total.toFixed(2);
+    }
+</script>
+    <script>
+        function calcularTotal() {
+            // Obtener valores de los campos Subtotal y Descuento
+            let subtotal = parseFloat(document.getElementById('Subtotal').value) || 0;
+            let descuento = parseFloat(document.getElementById('Descuento').value) || 0;
+
+            // Validar que el descuento no sea negativo (seguridad adicional)
+            if (descuento < 0) {
+                descuento = 0;
+                document.getElementById('Descuento').value = 0;
+            }
+
+            // Calcular el total
+            let total = subtotal - descuento;
+
+            // Asegurar que el total no sea menor a 0 (por lógica)
+            if (total < 0) {
+                total = 0;
+                document.getElementById('Descuento').value = subtotal; // Descuento máximo permitido
+            }
+
+            // Mostrar el total en su campo correspondiente
+            document.getElementById('Total').value = total.toFixed(2);
+        }
+    </script>
+</html>

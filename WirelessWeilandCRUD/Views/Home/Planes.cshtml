@@ -1,0 +1,58 @@
+@{
+    ViewData["Title"] = "Planes de Internet";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/planes.css" />
+}
+
+<div class="intro-text">Descubre nuestros planes</div>
+<div class="intro-subtext">Planes diseñados para adaptarse a tus necesidades</div>
+
+<div class="plan-container">
+    <div class="plan">
+        <h2>PLAN BÁSICO</h2>
+        <p>5 MB/S</p>
+        <p>SIMÉTRICO</p>
+        <p>Ideal para: Navegar en redes sociales, enviar correos y búsquedas en Google.</p>
+        <a href="#" class="btn" onclick="openPopup('PLAN BÁSICO')">Contratar ahora</a>
+    </div>
+    <div class="plan">
+        <h2>PLAN ESTÁNDAR</h2>
+        <p>7.5 MB/S</p>
+        <p>SIMÉTRICO</p>
+        <p>Ideal para: Streaming en HD en Netflix y YouTube, además de videollamadas estables.</p>
+        <a href="#" class="btn" onclick="openPopup('PLAN ESTÁNDAR')">Contratar ahora</a>
+    </div>
+    <div class="plan">
+        <h2>PLAN PREMIUM</h2>
+        <p>10 MB/S</p>
+        <p>SIMÉTRICO</p>
+        <p>Ideal para: Gaming en línea, descargas rápidas y streaming en Ultra HD.</p>
+        <a href="#" class="btn" onclick="openPopup('PLAN PREMIUM')">Contratar ahora</a>
+    </div>
+</div>
+
+<!-- Ventana emergente -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h2>Contratar PLAN</h2>
+        <p>Contacta al: 228 365 72 47</p>
+        <p>Email: garciajasiel39@gmail.com</p>
+        <button onclick="closePopup()">Cerrar</button>
+    </div>
+</div>
+
+<script>
+    function openPopup(plan) {
+        const popup = document.getElementById('popup');
+        const popupTitle = popup.querySelector('h2');
+        popupTitle.textContent = `Contratar ${plan}`;
+        popup.style.display = 'flex'; // Muestra la ventana emergente
+    }
+
+    function closePopup() {
+        const popup = document.getElementById('popup');
+        popup.style.display = 'none'; // Oculta la ventana emergente
+    }
+</script>

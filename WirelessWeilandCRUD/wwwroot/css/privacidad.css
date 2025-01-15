@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+.privacy-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-container h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.privacy-container h2 {
+    font-size: 1.5rem;
+    color: #004494;
+    margin-top: 20px;
+}
+
+.privacy-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.privacy-container ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.privacy-container ul li {
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.privacy-container strong {
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .privacy-container {
+        padding: 15px 20px;
+    }
+
+    .privacy-container h1 {
+        font-size: 2rem;
+    }
+
+    .privacy-container h2 {
+        font-size: 1.3rem;
+    }
+
+    .privacy-container p,
+    .privacy-container ul li {
+        font-size: 0.9rem;
+    }
+}

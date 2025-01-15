@@ -1,0 +1,92 @@
+@model IEnumerable<Cliente>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clientes</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .client-table {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .client-table th,
+        .client-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .client-table th {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Lista de Clientes</h1>
+
+        <!-- Barra de búsqueda -->
+        <div class="search-bar">
+            <input type="text" id="search-client" placeholder="Buscar cliente por nombre..." oninput="searchClient()" />
+        </div>
+
+        <!-- Tabla de clientes -->
+        <table class="client-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Teléfono</th>
+                    <th>Plan</th>
+                    <th>Activo</th>
+                    <th>Fecha de Inicio</th>
+                </tr>
+            </thead>
+            <tbody id="ResultadosClientes">
+                @foreach (var cliente in Model)
+                {
+                    <tr>
+                        <td>@cliente.Nombre</td>
+                        <td>@cliente.Telefono</td>
+                        <td>@cliente.PlanRenta</td>
+                        <td>@(cliente.Activo ? "Activo" : "Inactivo")</td>
+                        <td>@cliente.FechaInicio?.ToString("yyyy-MM-dd")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function searchClient() {
+            const searchValue = document.getElementById('search-client').value.toLowerCase();
+            const rows = document.querySelectorAll('.client-table tbody tr');
+
+            rows.forEach(row => {
+                const name = row.querySelector('td').textContent.toLowerCase();
+                if (name.includes(searchValue)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

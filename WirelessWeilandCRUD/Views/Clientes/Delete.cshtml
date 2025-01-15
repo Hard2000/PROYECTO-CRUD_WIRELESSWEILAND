@@ -1,0 +1,11 @@
+@model Cliente
+
+<h2>Confirmar Eliminación</h2>
+
+<p>¿Está seguro de que desea eliminar al cliente <strong>@Model.Nombre</strong>?</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

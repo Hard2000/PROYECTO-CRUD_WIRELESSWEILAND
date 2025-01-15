@@ -1,0 +1,287 @@
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\appsettings.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.staticwebassets.runtime.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.staticwebassets.endpoints.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Black.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Bold.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Italic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Light.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Medium.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Regular.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Thin.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\OFL.txt
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.exe
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.deps.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.runtimeconfig.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.pdb
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\DinkToPdf.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\DnsClient.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\QuestPDF.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\SkiaSharp.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\Snappier.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.csproj.AssemblyReference.cache
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.AssemblyInfoInputs.cache
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.AssemblyInfo.cs
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.csproj.CoreCompileInputs.cache
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.RazorAssemblyInfo.cache
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.RazorAssemblyInfo.cs
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\scopedcss\bundle\WirelessWeilandCRUD.styles.css
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\scopedcss\projectbundle\WirelessWeilandCRUD.bundle.scp.css
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\9v85o5sglj-2abqgdrwqa.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\i0yop9re8o-cw7p7f4row.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\hid65ybtns-xyfh8rhkcy.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\wfdjx1ey7l-61n19gt1b8.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\4lvylt1mij-xtxxf3hu2r.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\hw5fbib7cu-bqjiyaj88i.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\aykt3g32bw-c2jlpeoesf.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\2iwacsc85n-erw9l3u2r3.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\gg14afrd99-aexeepp0ev.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\ob64ty98fu-d7shbmvgxk.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\bgqk0znyf1-ausgxo2sd3.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lxq0c2stov-k8d9w2qqmf.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\60of7axowg-cosvhxvwiu.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\7umv0w3fsb-ub07r2b239.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\a3qpkfdpdi-fvhpjtyr6v.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\e2mhe1sg4c-b7pk76d08c.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\badyyuxq0k-fsbi9cje9m.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u2loemact4-rzd6atqjts.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\vylvyx0jqn-ee0r1s7dh0.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\poly0tg4xu-dxx9fxp4il.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\gai1pnaw77-jd9uben2k1.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\knokelvfpv-khv3u5hwcm.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\33aqtk1zqz-r4e9w2rdcm.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\y1icj6mdb7-lcd1t2u6c8.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\l4ge2e3b6m-c2oey78nd0.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\eiwcdd3c8k-tdbxkamptv.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\ytv8h04i5s-j5mq2jizvt.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u3s930ph0t-06098lyss8.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\5aedw0o5wh-nvvlpmu67g.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\1u8f0e08cb-s35ty4nyc5.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\3res3wgtiw-pj5nd1wqec.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\l5tjqyet2i-46ein0sx1k.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\63egltsbxw-v0zj4ognzu.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\fvcmmjqpsy-37tfw0ft22.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\0x21pfam4k-hrwsygsryq.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lv5sa9uyij-pk9g2wxc8p.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\xzwehi5o5e-ft3s53vfgj.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\2t1m8tf4w8-6cfz1n2cew.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\cyyhc1vxhy-6pdc2jztkx.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\xf6wxiz11x-493y06b0oq.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\jmhukhobkj-iovd86k7lj.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u6h9akyqvg-vr1egmr9el.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\tnjifgx7l6-kbrnm935zg.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\702ywylwcm-jj8uyg4cgr.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\3q0v88h1vg-y7v9cxd14o.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\9iilza35yi-notf2xhcfb.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\1fg8911b9i-h1s4sie4z3.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\2kdmfb77d3-63fj8s7r0e.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\1gzwtlfr5o-0j3bgjxly4.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u2x8974uuk-47otxtyo56.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\rjb89hj5mb-4v8eqarkd7.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lkd6u652du-356vix0kms.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\iofqthl3du-83jwlth58m.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\t7sggvy57g-mrlpezrjn3.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\i8ru0296pv-lzl9nlhx6b.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\7ocxc8v397-ag7o75518u.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\h0npdocsv7-x0q3zqp4vz.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\dapfr4va1j-0i3buxo5is.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\th4is7lhmh-o1o13a6vjx.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\38bt0dpdv5-ttgo8qnofa.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\56jtbipatv-2z0ns9nrw6.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lnajx2zd9n-muycvpuwrr.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\jzeru1unoc-87fc7y1x7t.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\aeoe5uedeg-mlv21k5csn.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.WirelessWeilandCRUD.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.WirelessWeilandCRUD.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.build.WirelessWeilandCRUD.props
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WirelessWeilandCRUD.props
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WirelessWeilandCRUD.props
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\Wireless.BEBF2395.Up2Date
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\refint\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.pdb
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.genruntimeconfig.cache
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\ref\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\jubeo5ykfl-ufmd1cjhuv.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\6zwnfxtrl7-y9og95l4vg.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u4djg8yh2m-od5ko2w6wo.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\j9790tkol8-od5ko2w6wo.gz
+C:\Users\Felix Mendez\WirelessWeilandCRUD\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\appsettings.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.staticwebassets.endpoints.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Black.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Bold.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Italic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Light.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Medium.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Regular.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-Thin.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\LatoFont\OFL.txt
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.staticwebassets.runtime.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.exe
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.deps.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.runtimeconfig.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\WirelessWeilandCRUD.pdb
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\DinkToPdf.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\DnsClient.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\QuestPDF.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\SkiaSharp.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\Snappier.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.csproj.AssemblyReference.cache
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.AssemblyInfoInputs.cache
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.AssemblyInfo.cs
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.csproj.CoreCompileInputs.cache
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.RazorAssemblyInfo.cache
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.RazorAssemblyInfo.cs
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\scopedcss\bundle\WirelessWeilandCRUD.styles.css
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\scopedcss\projectbundle\WirelessWeilandCRUD.bundle.scp.css
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\i0yop9re8o-cw7p7f4row.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\6zwnfxtrl7-y9og95l4vg.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\jubeo5ykfl-ufmd1cjhuv.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\hid65ybtns-xyfh8rhkcy.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\wfdjx1ey7l-61n19gt1b8.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\4lvylt1mij-xtxxf3hu2r.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\hw5fbib7cu-bqjiyaj88i.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\aykt3g32bw-c2jlpeoesf.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\2iwacsc85n-erw9l3u2r3.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\gg14afrd99-aexeepp0ev.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\ob64ty98fu-d7shbmvgxk.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\bgqk0znyf1-ausgxo2sd3.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lxq0c2stov-k8d9w2qqmf.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\60of7axowg-cosvhxvwiu.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\7umv0w3fsb-ub07r2b239.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\a3qpkfdpdi-fvhpjtyr6v.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\e2mhe1sg4c-b7pk76d08c.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\badyyuxq0k-fsbi9cje9m.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u2loemact4-rzd6atqjts.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\vylvyx0jqn-ee0r1s7dh0.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\poly0tg4xu-dxx9fxp4il.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\gai1pnaw77-jd9uben2k1.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\knokelvfpv-khv3u5hwcm.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\33aqtk1zqz-r4e9w2rdcm.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\y1icj6mdb7-lcd1t2u6c8.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\l4ge2e3b6m-c2oey78nd0.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\eiwcdd3c8k-tdbxkamptv.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\ytv8h04i5s-j5mq2jizvt.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u3s930ph0t-06098lyss8.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\5aedw0o5wh-nvvlpmu67g.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\1u8f0e08cb-s35ty4nyc5.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\3res3wgtiw-pj5nd1wqec.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\l5tjqyet2i-46ein0sx1k.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\63egltsbxw-v0zj4ognzu.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\fvcmmjqpsy-37tfw0ft22.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\0x21pfam4k-hrwsygsryq.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lv5sa9uyij-pk9g2wxc8p.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\xzwehi5o5e-ft3s53vfgj.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\2t1m8tf4w8-6cfz1n2cew.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\cyyhc1vxhy-6pdc2jztkx.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\xf6wxiz11x-493y06b0oq.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\jmhukhobkj-iovd86k7lj.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u6h9akyqvg-vr1egmr9el.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\tnjifgx7l6-kbrnm935zg.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\702ywylwcm-jj8uyg4cgr.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\3q0v88h1vg-y7v9cxd14o.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\9iilza35yi-notf2xhcfb.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\1fg8911b9i-h1s4sie4z3.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\2kdmfb77d3-63fj8s7r0e.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\1gzwtlfr5o-0j3bgjxly4.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u2x8974uuk-47otxtyo56.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\rjb89hj5mb-4v8eqarkd7.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lkd6u652du-356vix0kms.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\iofqthl3du-83jwlth58m.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\t7sggvy57g-mrlpezrjn3.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\i8ru0296pv-lzl9nlhx6b.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\7ocxc8v397-ag7o75518u.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\h0npdocsv7-x0q3zqp4vz.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\dapfr4va1j-0i3buxo5is.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\th4is7lhmh-o1o13a6vjx.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\38bt0dpdv5-ttgo8qnofa.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\56jtbipatv-2z0ns9nrw6.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\lnajx2zd9n-muycvpuwrr.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\jzeru1unoc-87fc7y1x7t.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\aeoe5uedeg-mlv21k5csn.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\u4djg8yh2m-od5ko2w6wo.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\j9790tkol8-od5ko2w6wo.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.WirelessWeilandCRUD.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.WirelessWeilandCRUD.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.build.WirelessWeilandCRUD.props
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WirelessWeilandCRUD.props
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WirelessWeilandCRUD.props
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\Wireless.BEBF2395.Up2Date
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\refint\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.pdb
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\WirelessWeilandCRUD.genruntimeconfig.cache
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\ref\WirelessWeilandCRUD.dll
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\9v85o5sglj-w8np6qgukm.gz
+C:\Users\Felix Mendez\Documents\Maestria Sistemas\1 semestre\Base de datos\WirelessWeilandCRUD\obj\Debug\net9.0\compressed\hyhh87q7tr-8hmszioe53.gz

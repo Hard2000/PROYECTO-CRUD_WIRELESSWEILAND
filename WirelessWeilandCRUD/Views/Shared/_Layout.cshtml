@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WirelessWeiland</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/planes.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">WIRELESS WEILAND</a>
+            
+            <!-- Mobile Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")" 
+                           asp-area="" 
+                           asp-controller="Home" 
+                           asp-action="Index">
+                           INICIO
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Planes" ? "active" : "")" 
+                           asp-area="" 
+                           asp-controller="Home" 
+                           asp-action="Planes">
+                           PLANES
+                        </a>
+                    </li>
+                    @if (!string.IsNullOrEmpty(Context.Session.GetString("UserRole")) && Context.Session.GetString("UserRole") == "administrador")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Clientes" ? "active" : "")" 
+                               asp-area="" 
+                               asp-controller="Clientes" 
+                               asp-action="Index">
+                               CLIENTES
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Recibos" && ViewContext.RouteData.Values["action"]?.ToString() == "GenerarRecibo" ? "active" : "")" 
+                               asp-area="" 
+                               asp-controller="Recibos" 
+                               asp-action="GenerarRecibo">
+                               FACTURACIÓN
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Recibos" && ViewContext.RouteData.Values["action"]?.ToString() == "ListaRecibos" ? "active" : "")" 
+                               asp-area="" 
+                               asp-controller="Recibos" 
+                               asp-action="ListaRecibos">
+                               RECIBOS
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <!-- Session Options -->
+                <div class="d-flex align-items-center">
+                    @if (string.IsNullOrEmpty(Context.Session.GetString("UserRole")))
+                    {
+                        <a class="btn btn-light btn-login" asp-area="" asp-controller="Account" asp-action="Login">INICIAR SESIÓN</a>
+                    }
+                    else
+                    {
+                        <span class="navbar-text me-2">Hola, Administrador</span>
+                        <a class="btn btn-danger btn-login" asp-area="" asp-controller="Account" asp-action="Logout">CERRAR SESIÓN</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted mt-4">
+    <div class="container text-center">
+        &copy; 2024 - WirelessWeilandCRUD - <a asp-area="" asp-controller="Home" asp-action="AvisoDePrivacidad">Aviso de Privacidad</a>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

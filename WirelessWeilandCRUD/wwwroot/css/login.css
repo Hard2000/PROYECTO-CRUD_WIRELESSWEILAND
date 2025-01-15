@@ -1,0 +1,51 @@
+/* Contenedor principal de la página de login */
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Hace que el fondo ocupe toda la altura de la ventana */
+    background-image: url('/images/background-login.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    margin: 0; /* Elimina márgenes externos del contenedor */
+    padding: 0;
+    color: #fff; /* Texto blanco para contraste */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Mejora la legibilidad */
+}
+
+/* Formulario */
+.login-form {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    width: 100%;
+    max-width: 400px; /* Ajusta el ancho máximo del formulario */
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.login-links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.login-links a {
+    color: #ff8a80;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-links a:hover {
+    color: #ff6b60;
+    text-decoration: underline;
+}

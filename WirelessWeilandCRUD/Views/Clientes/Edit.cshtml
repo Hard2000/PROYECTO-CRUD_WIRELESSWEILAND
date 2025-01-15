@@ -1,0 +1,111 @@
+@model Cliente
+
+<h2>Editar Cliente</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="Id" value="@Model?.Id" />
+
+    <!-- Campo: Nombre -->
+    <div class="form-group">
+        <label for="Nombre">Nombre Completo</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" value="@Model?.Nombre" 
+               required oninput="convertToUppercase(this)" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Dirección -->
+    <div class="form-group">
+        <label for="Direccion">Dirección</label>
+        <input type="text" class="form-control" id="Direccion" name="Direccion" value="@Model?.Direccion" 
+               oninput="convertToUppercase(this)" />
+        <span asp-validation-for="Direccion" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Teléfono -->
+    <div class="form-group">
+    <label for="Telefono">Teléfono</label>
+    <input type="text" class="form-control" id="Telefono" name="Telefono" value="@Model?.Telefono" />
+    <span asp-validation-for="Telefono" class="text-danger"></span>
+</div>
+
+
+    <!-- Campo: Correo Electrónico -->
+    <div class="form-group">
+        <label for="CorreoElectronico">Correo Electrónico</label>
+        <input type="email" class="form-control" id="CorreoElectronico" name="CorreoElectronico" 
+               value="@Model?.CorreoElectronico" />
+        <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Plan de Renta -->
+    <div class="form-group">
+        <label for="PlanRenta">Plan de Renta</label>
+        <select class="form-control" id="PlanRenta" name="PlanRenta" required>
+            @if (ViewBag.PlanesDeRenta != null)
+            {
+                var planes = (List<string>)ViewBag.PlanesDeRenta;
+                foreach (var plan in planes)
+                {
+                    if (Model?.PlanRenta == plan)
+                    {
+                        <option value="@plan" selected>@plan</option>
+                    }
+                    else
+                    {
+                        <option value="@plan">@plan</option>
+                    }
+                }
+            }
+        </select>
+        <span asp-validation-for="PlanRenta" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Estatus (Activo/Inactivo) -->
+<div class="form-group">
+    <label for="Activo">Estatus (Activo/Inactivo)</label>
+    <!-- Campo oculto para enviar false si el checkbox no está marcado -->
+    <input type="hidden" name="Activo" value="false" />
+    <!-- Checkbox para enviar true si está marcado -->
+    <input type="checkbox" id="Activo" name="Activo" value="true" @(Model?.Activo == true ? "checked" : "") />
+    <span asp-validation-for="Activo" class="text-danger"></span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Campo: Fecha de Inicio -->
+    <div class="form-group">
+        <label for="FechaInicio">Fecha de Inicio</label>
+        <input type="date" class="form-control" id="FechaInicio" name="FechaInicio" 
+               value="@(Model?.FechaInicio.HasValue == true ? Model.FechaInicio.Value.ToString("yyyy-MM-dd") : string.Empty)" />
+        <span asp-validation-for="FechaInicio" class="text-danger"></span>
+    </div>
+
+    <!-- Campo: Comentarios -->
+    <div class="form-group">
+        <label for="Comentarios">Comentarios</label>
+        <textarea class="form-control" id="Comentarios" name="Comentarios" 
+                  oninput="convertToUppercase(this)">@Model?.Comentarios</textarea>
+        <span asp-validation-for="Comentarios" class="text-danger"></span>
+    </div>
+
+    <!-- Botones -->
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+<script>
+    // Función para convertir texto a mayúsculas
+    function convertToUppercase(input) {
+        input.value = input.value.toUpperCase();
+    }
+</script>
